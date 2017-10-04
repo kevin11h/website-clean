@@ -1,7 +1,7 @@
 /*-----------------------------------------------------------------------------------
     Various elements style.
 -----------------------------------------------------------------------------------*/
-@import url("animate.css");
+/*@import url("animate.css");*/
 
 /*!
  * Bootstrap-submenu v2.0.4 (https://vsn4ik.github.io/bootstrap-submenu/)
@@ -26,10 +26,10 @@
     background-color: rgb(251, 191, 24);
   }
   .service-header > h3 {
-   color: rgb(251, 191, 24); 
+   color: rgb(251, 191, 24);
   }
   .portfolio-description > h4 {
-   color: rgb(251, 191, 24);  
+   color: rgb(251, 191, 24);
   }
   .dropup .dropdown-submenu .dropdown-menu,
   .navbar-fixed-bottom .dropdown-submenu .dropdown-menu {
@@ -292,9 +292,9 @@
   width: 40px;
   z-index: 2;
 }
-.slick-prev:hover, 
-.slick-prev:focus, 
-.slick-next:hover, 
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
 .slick-next:focus {
   background: #888 none repeat scroll 0 0;
   color: transparent;
@@ -459,13 +459,14 @@
 /* ----- preloader - choose between CIRCLE, IOS, DOTS, QUADS ----- */
 
 /* circle preloader */
+
 .vbox-preloader{
-    position:fixed; 
-    width:32px; 
+    position:fixed;
+    width:32px;
     height:32px;
-    left:50%; 
-    top:50%; 
-    margin-left:-16px; 
+    left:50%;
+    top:50%;
+    margin-left:-16px;
     margin-top:-16px;
     background-image: url(../img/icons/venobox/preload-circle.png);
     text-indent: -100px;
