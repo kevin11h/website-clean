@@ -109,3 +109,7 @@ main a {
 .readings > li {
   margin-bottom: 0;
 }
+
+.nav-container {
+  max-width: none;
+}
